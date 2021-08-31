@@ -1,0 +1,7 @@
+[MDFStore]
+git-tree-sha1 = "05cd504c3dce59f077dc0b0ab41570696a5db419"
+lazy = true
+
+    [[MDFStore.download]]
+    sha256 = "6fecf201cc10a568a68ccc150248d1277bed10835439dd586c42349d6b6629a7"
+    url = "https://zenodo.org/record/5336271/files/MDFStore.tar.gz"
