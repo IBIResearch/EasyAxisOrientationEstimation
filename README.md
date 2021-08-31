@@ -1,4 +1,4 @@
-# EasyAxisOrientationEstimation
+# Easy Axis Orientation Estimation
 
 This folder contains example code for the estimation of the spatial orientation of immobilized magnetic nanoparticles with parallel aligned easy axes. The method is sketched in the notebook provided here and described in detail in the associated publication.
 
@@ -8,7 +8,7 @@ To be announced
 
 ### Non-interactive Pluto Notebooks
 
-The quickest way to get started is to explore the non-interactive snapshot of the notebook by opening the `orientationEstimation.html` in a browser, which illustrates the complete evaluation pipeline of the project. Note that the outputs of the notebooks are provided within this repository. They are described in more detail in the [Output](Output) section.
+The quickest way to get started is to explore the non-interactive snapshot of the notebook by opening the `orientationEstimation.html` in a browser, which illustrates the complete evaluation pipeline of the project. Note that the outputs of the notebooks are provided within this repository. They are described in more detail in the [Output](#Output) section.
 
 ### Using Pluto Notebooks
 
