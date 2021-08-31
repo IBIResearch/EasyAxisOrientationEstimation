@@ -12,7 +12,7 @@ The quickest way to get started is to explore the non-interactive snapshot of th
 
 ### Using Pluto Notebooks
 
-In order to explore the code interactively, one first has to download and install the [Julia programming language]((https://julialang.org/)) (version 1.6 or later) as well as the [Pluto](https://github.com/fonsp/Pluto.jl#installation) notebook package (version 0.15 or later) from the julia REPL (read-eval-print loop):
+In order to explore the code interactively, one first has to download and install the [Julia programming language](https://julialang.org/) (version 1.6 or later) as well as the [Pluto](https://github.com/fonsp/Pluto.jl#installation) notebook package (version 0.15 or later) from the julia REPL (read-eval-print loop):
 ```julia
 using Pkg           # use package manager
 Pkg.add("Pluto")    # add Pluto notebook package
