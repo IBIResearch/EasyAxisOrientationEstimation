@@ -1,4 +1,4 @@
-# EasyAxisOrientationEstimation
+# Easy Axis Orientation Estimation
 
 This folder contains example code for the estimation of the spatial orientation of immobilized magnetic nanoparticles with parallel aligned easy axes. The method is sketched in the notebook provided here and described in detail in the associated publication.
 
