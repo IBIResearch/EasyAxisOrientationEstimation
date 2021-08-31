@@ -8,7 +8,7 @@ To be announced
 
 ### Using Pluto Notebooks
 
-In order to use this code one first has to download and install the [Julia programming language]((https://julialang.org/)) (version 1.6 or later) as well as the [Pluto](https://github.com/fonsp/Pluto.jl#installation) notebook package (version 0.15 or later). Next, one has to [start up](https://github.com/fonsp/Pluto.jl#usage) a Pluto notebook server, which will direct you to a Pluto start page in your browser, from which you can start the `orientationEstimation.jl` notebook by navigating to the appropriate location.
+In order to use this code one first has to download and install the [Julia programming language](https://julialang.org/) (version 1.6 or later) as well as the [Pluto](https://github.com/fonsp/Pluto.jl#installation) notebook package (version 0.15 or later). Next, one has to [start up](https://github.com/fonsp/Pluto.jl#usage) a Pluto notebook server, which will direct you to a Pluto start page in your browser, from which you can start the `orientationEstimation.jl` notebook by navigating to the appropriate location.
 
 ### Without Pluto Notebooks
 
