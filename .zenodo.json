@@ -4,17 +4,17 @@
           "orcid": "0000-0002-4737-7863", 
           "affiliation": "University Medical Center Hamburg-Eppendorf and Hamburg University of Technology", 
           "name": "Möddel, Martin"
-        }, 
+        },
         {
           "orcid": "0000-0003-3309-9783", 
           "affiliation": "University Medical Center Hamburg-Eppendorf and Hamburg University of Technology", 
           "name": "Griese, Florian"
-        }, 
+        },
         {
           "orcid": "0000-0003-4814-142X", 
           "affiliation": "University of Bremen", 
           "name": "Kluth, Tobias"
-        }, 
+        },
         {
           "orcid": "0000-0002-1589-8517", 
           "affiliation": "University Medical Center Hamburg-Eppendorf and Hamburg University of Technology", 
@@ -29,9 +29,9 @@
     ],
     "communities": [
         {
-          "id": "mpi"
+          "identifier": "mpi"
         }
-    ],    
+    ],
     "language": "eng",
     "license": {
         "id": "MIT License"
