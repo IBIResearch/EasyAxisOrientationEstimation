@@ -8,7 +8,7 @@ To be announced
 
 ### Non-interactive Pluto Notebooks
 
-The quickest way to get started is to explore the non-interactive snapshot of the notebook by opening the `orientationEstimation.html` in a browser, which illustrates the complete evaluation pipeline of the project. Note that the outputs of the notebooks are provided within this repository. They are described in more detail.
+The quickest way to get started is to explore the non-interactive snapshot of the notebook by opening the `orientationEstimation.html` in a browser, which illustrates the complete evaluation pipeline of the project. Note that the outputs of the notebooks are provided within this repository. They are described in more detail in the [Output](Output) section.
 
 ### Using Pluto Notebooks
 
