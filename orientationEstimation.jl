@@ -22,7 +22,7 @@ md"""
 
 ### Calibration measurements
 
-12 Calibration measurements are available. Their easy axis orientation (°) and file path are documented here.
+12 calibration measurements are available. Their easy axis orientation (°) and file path are documented here.
 """
 
 # ╔═╡ 5dd4e6c3-eb71-4df6-9f90-bc392384f5f8
@@ -41,7 +41,7 @@ Here, the [multi-contrast reconstruction method](https://iopscience.iop.org/arti
 
 # ╔═╡ a6a61f0f-f34e-4e64-a40c-84f32d349615
 md"""
-### Set up mdf data set store
+### Set up MDF data set store
 
 All measurements are stored in the Magnetic Particle Imaging Data Format ([MDF](https://arxiv.org/pdf/1602.06072.pdf)) and collected in an MDF dataset store.
 """
@@ -63,7 +63,7 @@ dfMeas = DataFrame(CSV.File(joinpath(pathToMDFStore,"measurements.csv")))
 md"""
 ### Set up reconstruction parameters
 
-Note, any change to one of these parameters leads to a reconstruction of the 756 data sets, which can take up to several hours for number of `:iterations` larger equal to the default 5000.
+Note, any change to one of these parameters triggers a reconstruction of all 756 data sets. This can take up to several hours and the duration is mainly impacted by the number of `:iterations`.
 """
 
 # ╔═╡ bce35624-154a-46c4-8f7e-15109d0f473d
@@ -80,7 +80,7 @@ end;
 md"""
 ### Load exemplary tomogram
 
-To illustrate the reconstruction pipeline, a measurement is chosen at random from the data frame `dfMeas` and reconstructed.
+To illustrate the reconstruction pipeline, a measurement is chosen randomly from the data frame `dfMeas` and reconstructed.
 """
 
 # ╔═╡ 902b5f9d-5320-4ffa-8e1f-1778fc415c75
@@ -95,6 +95,8 @@ end;
 # ╔═╡ 2ad4d959-a7c0-498f-8101-168718b56768
 md"""
 ### Get meta data from data frame
+
+The sample position and axis alignment can be obtained from the data frame `dfMeas`.
 """
 
 # ╔═╡ 037ff94d-3e90-4596-baed-694263200b1c
@@ -136,7 +138,7 @@ Here, the signal weight of the sample is calculated for each individual channel.
 
 # ╔═╡ 517bcca3-2e03-459e-b656-7410bc23108e
 md"""
-### calibration angles α
+### Calibration angles α
 """
 
 # ╔═╡ 9a644b3e-7195-4389-b666-91722e95fa15
@@ -327,9 +329,9 @@ savefig(plt2,"images/weightsandfit.svg")
 
 # ╔═╡ 0ad5d465-841d-4364-81de-c476f281e928
 md"""
-### Obtain estimate for all
+### Obtain estimate from all measurements
 
-Here, the axis alignment is estimated for all measurements and save the result in a data frame.
+Here, the axis alignment is estimated for all measurements.
 """
 
 # ╔═╡ 02243e99-fb29-40bb-89c7-3ceeed44c0a6
