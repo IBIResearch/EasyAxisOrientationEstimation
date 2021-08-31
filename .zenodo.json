@@ -29,12 +29,14 @@
     ],
     "communities": [
         {
-          "identifier": "mpi"
+          "identifier": "Magnetic Particle Imaging"
         }
     ],
     "language": "eng",
     "license": {
-        "id": "MIT License"
+        "id": "MIT",
+        "title": "MIT License",
+        "url": "http://www.opensource.org/licenses/MIT"
       },
     "upload_type": "software"
   }
